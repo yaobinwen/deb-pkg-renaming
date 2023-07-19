@@ -1,0 +1,5 @@
+deb-pkg-renaming-pkg1 (0.1.0-1) UNRELEASED; urgency=low
+
+  * Initial packaging.
+
+ -- Yaobin Wen <robin.wyb@gmail.com>  Wed, 19 Jul 2023 12:27:39 -0400

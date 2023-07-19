@@ -1,0 +1,15 @@
+Source: deb-pkg-renaming-pkg1
+Section: shells
+Priority: optional
+Maintainer: Yaobin Wen <robin.wyb@gmail.com>
+Build-Depends: debhelper (>= 11)
+Standards-Version: 4.1.4
+
+Package: ywen-deb-pkg-renaming-pkg1
+Architecture: all
+Depends: ${misc:Depends},
+Description: Debian package 1 for demonstrating how to rename Debian packages.
+ This Debian package is used by the `deb-pkg-renaming` repository to
+ demonstrate how to properly rename a package from its old name to a new name.
+ It works with another package called `ywen-deb-pkg-renaming-pkg2`. `pkg2`
+ depends on this package.
